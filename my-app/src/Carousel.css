@@ -1,0 +1,11 @@
+.Frame {
+  width: auto;
+  height:155px;
+  overflow-x: hidden;
+  padding: 3px;
+}
+
+.carImg {
+  box-shadow:5px;
+
+}

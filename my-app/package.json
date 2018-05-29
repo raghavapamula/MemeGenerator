@@ -1,0 +1,31 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-responsive-carousel": "^3.1.37",
+    "react-scripts": "1.1.4",
+    "react-redux": "^5.0.7",
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "jest",
+    "test:watch": "jest --watch",
+  	"test:coverage": "jest --coverage",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "enzyme-to-json": "^3.3.4",
+    "jest": "^22.4.4",
+    "react-test-renderer": "^16.3.2"
+  },
+  "jest": {
+  "setupFiles": ["./test/jestsetup.js"],
+  "snapshotSerializers": ["enzyme-to-json/serializer"]
+}
+}
